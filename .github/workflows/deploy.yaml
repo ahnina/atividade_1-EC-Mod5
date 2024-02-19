@@ -35,6 +35,7 @@ jobs:
 
     - name: Install and Build
       run: |
+        cd docs
         npm i
         npm run build
         mv build ../build
